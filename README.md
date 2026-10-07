@@ -28,8 +28,15 @@ One-click Arch Linux installer for VMware, with GNOME/XFCE/Niri desktop, Chinese
 | `make-autoinstall-iso.sh` | Build a fully auto-booting ISO on any Linux / 在任意 Linux 里构建零操作 ISO |
 | `README.md` | This document / 本说明 |
 
-> The ISO itself (~1.8 GB) is **not** uploaded to GitHub (100 MB file limit). Build it yourself with `make-autoinstall-iso.sh`, or simply run `autoinstall.sh` from the official Arch ISO.
-> ISO 文件（约 1.8 GB）受 GitHub 单文件限制不随仓库上传，请用 `make-autoinstall-iso.sh` 自行构建，或在官方 Arch ISO Live 环境里直接跑 `autoinstall.sh`。
+> The ISO itself (~1.8 GB) exceeds GitHub's 100 MB file limit and is not committed to the repo.
+> **Option 1**: Download the prebuilt auto-install ISO from the [Releases page](https://github.com/xie728/arch-autoinstall/releases).
+> **Option 2**: Build it yourself with `make-autoinstall-iso.sh` (see below).
+> **Option 3**: Just run `autoinstall.sh` directly from the official Arch ISO (see Method A below).
+>
+> ISO 文件（约 1.8 GB）超过 GitHub 100MB 单文件限制，不放进仓库。
+> **方式一**：从 [Releases 页面](https://github.com/xie728/arch-autoinstall/releases) 下载已构建好的零操作 ISO。
+> **方式二**：用 `make-autoinstall-iso.sh` 自己构建（见下文）。
+> **方式三**：直接在官方 Arch ISO 的 Live 环境里跑 `autoinstall.sh`（见下文方式 A）。
 
 ---
 
